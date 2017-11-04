@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="processing-3.3.6-windows64">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/generated" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/dxf/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/io/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/net/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/pdf/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/serial/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/libraries/svg/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/modes/java/src" />
+      <root url="jar://$PROJECT_DIR$/../../processing-3.3.6-windows64.zip!/processing-3.3.6/tools/MovieMaker/src" />
+    </SOURCES>
+  </library>
+</component>
