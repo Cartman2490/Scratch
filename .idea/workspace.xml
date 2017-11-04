@@ -601,8 +601,8 @@
           <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="false" />
+            <element signature="e#2534#2535#0" expanded="false" />
           </folding>
         </state>
       </provider>
