@@ -1,0 +1,5 @@
+Hi,
+
+I use Eclipse IDE and there is a very convenient live UML plugin called ObjectAid UML Explorer. For this reason, I do not use Yed, and instead have included my UML diagram from the Eclipse IDE as a PNG.
+
+-Carter
