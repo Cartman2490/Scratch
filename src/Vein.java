@@ -104,4 +104,9 @@ public class Vein extends ActionSuperClass implements ActiveInterface{
 
         return properties.length == VEIN_NUM_PROPERTIES;
     }
+
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
 }

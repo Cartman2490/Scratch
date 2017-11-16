@@ -44,6 +44,11 @@ public class Obstacle extends WorldEntity{
         return properties.length == OBSTACLE_NUM_PROPERTIES;
     }
 
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
+
 }
 
 

@@ -42,6 +42,11 @@ public class Blacksmith extends WorldEntity {
 
         return properties.length == SMITH_NUM_PROPERTIES;
     }
+
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
 }
 
 

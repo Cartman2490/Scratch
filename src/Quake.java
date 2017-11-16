@@ -62,4 +62,9 @@ public class Quake extends AnimatedSuperClass implements ActiveInterface, Animat
     public EntityKind getKind(){
         return this.kind;
     }
+
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
 }

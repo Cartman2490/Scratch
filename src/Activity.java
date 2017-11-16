@@ -13,7 +13,7 @@ public class Activity implements ActionInterface{
     }
 
     private void executeActivityAction(EventScheduler scheduler) {
-        System.out.println(this.active.getKind());
+        //System.out.println(this.active.getKind());
         this.active.executeActivity(this.world,
                 this.imageStore, scheduler);
     }

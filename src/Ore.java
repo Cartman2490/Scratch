@@ -90,4 +90,9 @@ public class Ore extends ActionSuperClass implements ActiveInterface{
 
         return properties.length == ORE_NUM_PROPERTIES;
     }
+
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
 }

@@ -44,9 +44,8 @@ final class ImageStore
          lineNumber++;
       }
    }
-   public static PImage getCurrentImage(Object entity)
-   {
-      if (entity instanceof Background)
+   public static PImage getCurrentImage(Object entity) {
+ /*     if (entity instanceof Background)
       {
          return ((Background)entity).images
                  .get(((Background)entity).imageIndex);
@@ -56,13 +55,23 @@ final class ImageStore
          //return ((EntityImageStore)entity).images.get(((EntityInterface)entity).imageIndex);
          return ((WorldEntity) entity).getCurrentImage();
       }
+
       else
       {
          throw new UnsupportedOperationException(
                  String.format("getCurrentImage not supported for %s",
                          entity));
       }
+      */
+
+      GetCurrentImage vdp = new GetCurrentImage();
+      ((AcceptImage) entity).accept(vdp);
+      return vdp.getTheImage();
    }
+
+
+
+
    public static Optional<PImage> getBackgroundImage(WorldModel world,
                                                      Point pos)
    {

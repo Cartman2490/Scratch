@@ -5,4 +5,5 @@ public interface EntityInterface {
     void setPos(Point newPosition);
     Point getPos();
     EntityKind getKind();
+    <R> R accept(EntityVisitor<R> visitor);
 }

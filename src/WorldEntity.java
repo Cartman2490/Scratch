@@ -2,7 +2,7 @@ import processing.core.PImage;
 
 import java.util.List;
 
-public class WorldEntity {
+public class WorldEntity implements AcceptImage{
     private String id;
     private Point position;
     private List<PImage> images;
@@ -35,6 +35,10 @@ public class WorldEntity {
     public void setImageIndex(int newIndex) {this.imageIndex = newIndex; }
 
     public List<PImage> getImages() { return this.images; }
+
+    public void accept(ImageVisitor visitor) {
+        visitor.visit(this);
+    }
 
 
 }

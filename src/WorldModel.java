@@ -98,10 +98,10 @@ final class WorldModel
          this.entities.remove(entity);
          this.setOccupancyCell(pos, null);
 
-         String classValue = this.getClass().getName();
-         if (classValue == "Miner_Full"){
-            System.out.println("hi");
-         }
+         //String classValue = this.getClass().getName();
+         //if (classValue == "Miner_Full"){
+            //System.out.println("hi");
+         //}
       }
    }
    public void setBackground(Point pos,

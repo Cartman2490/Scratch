@@ -141,5 +141,10 @@ public class Ore_Blob extends MoveSuperClass implements MobileInterface, ActiveI
         }
     }
 
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
+
 
 }

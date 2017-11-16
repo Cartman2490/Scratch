@@ -17,7 +17,7 @@ public class Miner_Not_Full extends MinerSuperClass implements  MobileInterface,
                                              List<PImage> images)
     {
         return new Miner_Not_Full(id, position, images,
-                resourceLimit, resourceLimit, actionPeriod, animationPeriod);
+                resourceLimit, 0, actionPeriod, animationPeriod);
     }
 
 
@@ -39,6 +39,11 @@ public class Miner_Not_Full extends MinerSuperClass implements  MobileInterface,
         }
 
         return properties.length == MINER_NUM_PROPERTIES;
+    }
+
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
     }
 }
 

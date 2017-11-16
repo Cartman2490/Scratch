@@ -33,6 +33,28 @@ public abstract class MinerSuperClass extends MoveSuperClass implements ActiveIn
             Optional<WorldEntity> notFullTarget = Functions.findNearest(world, this.getPos(),
                     "Ore");
 
+
+            ///Testing AStar
+            if (notFullTarget.isPresent()){
+                Node source = new Node(null, this.getPos());
+                System.out.println("Source Point");
+                System.out.println(source.getPoint());
+                System.out.println("");
+
+                Node goal = new Node(null, notFullTarget.get().getPos());
+
+                System.out.println("Goal Point");
+                System.out.println(goal.getPoint());
+
+
+                AStarPathingStrategy aaa = new AStarPathingStrategy();
+                aaa.testingAStar(source, goal, world);
+            }
+            ///
+
+
+
+
             if (!notFullTarget.isPresent() ||
                     !this.moveTo(world, notFullTarget.get(), scheduler) ||
                     !this.transform(world, scheduler, imageStore))

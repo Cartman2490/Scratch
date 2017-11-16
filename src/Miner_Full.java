@@ -21,6 +21,11 @@ public class Miner_Full extends MinerSuperClass implements MobileInterface, Acti
                 resourceLimit, resourceLimit, actionPeriod, animationPeriod);
     }
 
+    public <R> R accept(EntityVisitor<R> visitor)
+    {
+        return visitor.visit(this);
+    }
+
 
 
 
