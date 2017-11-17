@@ -51,11 +51,18 @@ final class WorldModel
          return Optional.empty();
       }
    }
-   public boolean isOccupied(Point pos)
-   {
+
+   public boolean isOccupied(Point pos) {
       return this.withinBounds(pos) &&
               this.getOccupancyCell(pos) != null;
    }
+
+   public boolean isOccupied2(Point pos, Point goal) {
+      if (pos.x == goal.x && pos.y == goal.y){return false;}
+      return this.withinBounds(pos) &&
+              this.getOccupancyCell(pos) != null;
+   }
+
    public void tryAddEntity(WorldEntity entity)
    {
       if (this.isOccupied(entity.getPos()))
