@@ -1,8 +1,8 @@
 public class Node {
     private Node parent;
     private Point point;
-    private int fScore;
-    private int gScore;
+    private double fScore;
+    private double gScore;
 
     public Node(Node Parent, Point point){
         this.parent = null;
@@ -15,19 +15,19 @@ public class Node {
         return this.point;
     }
 
-    public int getfScore(){
+    public double getfScore(){
         return this.fScore;
     }
 
-    public int getgScore(){
+    public double getgScore(){
         return this.gScore;
     }
 
-    public void setfScore(int newfScore){
+    public void setfScore(double newfScore){
         this.fScore = newfScore;
     }
 
-    public void setgScore(int newgScore){
+    public void setgScore(double newgScore){
         this.gScore = newgScore;
     }
 

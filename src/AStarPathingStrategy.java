@@ -17,8 +17,8 @@ public class AStarPathingStrategy implements PathingStrategy{
         // The set of nodes already evaluated
 */
 
-    public static int guessFScore(Node source, Node goal){
-        return source.getgScore() + Math.abs( ( goal.getPoint().x - source.getPoint().x ) + ( goal.getPoint().y - source.getPoint().y ) );
+    public static double guessFScore(Node source, Node goal){
+        return source.getgScore() + ( Math.abs( ( goal.getPoint().x - source.getPoint().x ) ) + Math.abs( goal.getPoint().y - source.getPoint().y ) );
     }
 
 
@@ -36,7 +36,7 @@ public class AStarPathingStrategy implements PathingStrategy{
        */
         return potentialNeighbors.apply(start)
 
-                .filter(pt -> !world.isOccupied(pt))    //Filters out occupied spaces from path
+                //.filter(pt -> !world.isOccupied(pt))    //Filters out occupied spaces from path
 
                 //.filter(canPassThrough)
                 .filter(pt ->
@@ -50,7 +50,7 @@ public class AStarPathingStrategy implements PathingStrategy{
 
 
 
-    public static int distanceBetween(Node node1, Node node2){
+    public static double distanceBetween(Node node1, Node node2){
         return Math.abs( ( node2.getPoint().x - node1.getPoint().x ) + ( node2.getPoint().y - node1.getPoint().y )  );
 
 
@@ -104,7 +104,7 @@ public class AStarPathingStrategy implements PathingStrategy{
             Node current = openSet.peek();
             System.out.println(current.getPoint());
             System.out.println(goal.getPoint());
-            if (current.getPoint() == goal.getPoint()) {
+            if (current.getPoint().x == goal.getPoint().x && current.getPoint().y == goal.getPoint().y) {
                 return reconstructPath(goal);
             }
 
@@ -114,6 +114,7 @@ public class AStarPathingStrategy implements PathingStrategy{
             List<Point> neighbors = computePath(current.getPoint(), goal.getPoint(), CARDINAL_NEIGHBORS, world);
 
             for (Point neighbor : neighbors) {
+                if (neighbor.x == goal.getPoint().x && neighbor.y == goal.getPoint().y){ System.out.println("hi"); }
                 Node pointHolder = new Node(null, neighbor);
                 //pointHolder.setgScore();
 
@@ -125,12 +126,27 @@ public class AStarPathingStrategy implements PathingStrategy{
                 if (openSet.contains(pointHolder) != true){
                     // Discover a new node
                     pointHolder.setgScore(current.getgScore()+1);
-                    pointHolder.setfScore( current.getgScore() + guessFScore(pointHolder, goal) );
+
+                    pointHolder.setfScore(
+                            //current.getgScore() +
+                                    guessFScore(pointHolder, goal) );
+
                     openSet.add(pointHolder);
 
                     pointHolder.setParent(current);
-                    System.out.println("We built a node");
+                    //System.out.println("We built a node");
                 }
+
+                //DEBUGGER//////////////////////
+
+                if (openSet.size() > 50){
+                    System.out.println("5000 large sir");
+                    System.out.println("Stopper");
+
+                }
+                /////////////////////////////
+
+
                 //System.out.println("We iterated thru all the neighbors, building 4 paths each now one larger");
 
                 /*
@@ -156,7 +172,7 @@ public class AStarPathingStrategy implements PathingStrategy{
                 fScore[neighbor] :=gScore[neighbor] + heuristic_cost_estimate(neighbor, goal)
                 */
             }
-            System.out.println("We iterated thru all the neighbors, building 4 paths each now one larger");
+            //System.out.println("We iterated thru all the neighbors, building 4 paths each now one larger");
         }
         return null;
     }
@@ -186,7 +202,12 @@ public class AStarPathingStrategy implements PathingStrategy{
 
     public void testingAStar(Node source, Node goal, WorldModel world){
         System.out.println("Calling aStar");
-        ArrayList<Point> finalPath = aStar(source, goal, world);
+        //ArrayList<Point> finalPath = aStar(source, goal, world);
+        Point DEBUGSOURCE = new Point(2, 2);
+        Point DEBUGGOAL = new Point(4, 4);
+        Node DEBUG1 = new Node(null, DEBUGSOURCE);
+        Node DEBUG2 = new Node(null, DEBUGGOAL);
+        ArrayList<Point> finalPath = aStar(DEBUG1, DEBUG2, world);
         System.out.println("Finished thru aStar");
         for (Point point : finalPath){
             System.out.println(point);
