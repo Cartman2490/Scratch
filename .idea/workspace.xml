@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ee2cf3-57df-435c-8f03-1c4acb361563" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_121.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/processing_core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AStarPathingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AcceptImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AllFalseEntityVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EntityVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GetCurrentImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ImageVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NodeComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PathingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SingleStepPathingStrategy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/ActionSuperClass.class" afterPath="$PROJECT_DIR$/out/production/Test1/ActionSuperClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/ActiveInterface.class" afterPath="$PROJECT_DIR$/out/production/Test1/ActiveInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Activity.class" afterPath="$PROJECT_DIR$/out/production/Test1/Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/AnimatedInterface.class" afterPath="$PROJECT_DIR$/out/production/Test1/AnimatedInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/AnimatedSuperClass.class" afterPath="$PROJECT_DIR$/out/production/Test1/AnimatedSuperClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Animation.class" afterPath="$PROJECT_DIR$/out/production/Test1/Animation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Background.class" afterPath="$PROJECT_DIR$/out/production/Test1/Background.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Blacksmith.class" afterPath="$PROJECT_DIR$/out/production/Test1/Blacksmith.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/EntityInterface.class" afterPath="$PROJECT_DIR$/out/production/Test1/EntityInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/EventScheduler.class" afterPath="$PROJECT_DIR$/out/production/Test1/EventScheduler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/MinerSuperClass.class" afterPath="$PROJECT_DIR$/out/production/Test1/MinerSuperClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Miner_Full.class" afterPath="$PROJECT_DIR$/out/production/Test1/Miner_Full.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Miner_Not_Full.class" afterPath="$PROJECT_DIR$/out/production/Test1/Miner_Not_Full.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/MoveSuperClass.class" afterPath="$PROJECT_DIR$/out/production/Test1/MoveSuperClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Obstacle.class" afterPath="$PROJECT_DIR$/out/production/Test1/Obstacle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Ore.class" afterPath="$PROJECT_DIR$/out/production/Test1/Ore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Ore_Blob.class" afterPath="$PROJECT_DIR$/out/production/Test1/Ore_Blob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Parse.class" afterPath="$PROJECT_DIR$/out/production/Test1/Parse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Quake.class" afterPath="$PROJECT_DIR$/out/production/Test1/Quake.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/Vein.class" afterPath="$PROJECT_DIR$/out/production/Test1/Vein.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/VirtualWorld.class" afterPath="$PROJECT_DIR$/out/production/Test1/VirtualWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/WorldEntity.class" afterPath="$PROJECT_DIR$/out/production/Test1/WorldEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/WorldModel.class" afterPath="$PROJECT_DIR$/out/production/Test1/WorldModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test1/WorldView.class" afterPath="$PROJECT_DIR$/out/production/Test1/WorldView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test1.iml" afterPath="$PROJECT_DIR$/Test1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Activity.java" afterPath="$PROJECT_DIR$/src/Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Background.java" afterPath="$PROJECT_DIR$/src/Background.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Blacksmith.java" afterPath="$PROJECT_DIR$/src/Blacksmith.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EntityInterface.java" afterPath="$PROJECT_DIR$/src/EntityInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageStore.java" afterPath="$PROJECT_DIR$/src/ImageStore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MinerSuperClass.java" afterPath="$PROJECT_DIR$/src/MinerSuperClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Miner_Full.java" afterPath="$PROJECT_DIR$/src/Miner_Full.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Miner_Not_Full.java" afterPath="$PROJECT_DIR$/src/Miner_Not_Full.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Obstacle.java" afterPath="$PROJECT_DIR$/src/Obstacle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ore.java" afterPath="$PROJECT_DIR$/src/Ore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ore_Blob.java" afterPath="$PROJECT_DIR$/src/Ore_Blob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Quake.java" afterPath="$PROJECT_DIR$/src/Quake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vein.java" afterPath="$PROJECT_DIR$/src/Vein.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WorldEntity.java" afterPath="$PROJECT_DIR$/src/WorldEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WorldModel.java" afterPath="$PROJECT_DIR$/src/WorldModel.java" />
-    </list>
+    <list default="true" id="60ee2cf3-57df-435c-8f03-1c4acb361563" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -152,12 +97,10 @@
       <file leaf-file-name="AStarPathingStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AStarPathingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-931">
-              <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+            <state relative-caret-position="-174">
+              <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2363#2369#0" expanded="true" />
-                <element signature="e#6840#6847#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,7 +121,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="609">
               <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding />
+              <folding>
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -295,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
@@ -332,8 +278,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,8 +298,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +305,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VisitDonuts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -495,7 +441,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="3864" height="2184" extended-state="6" />
+    <frame x="-12" y="-12" width="3864" height="2184" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -937,11 +883,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinerSuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1363">
+          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,22 +910,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinerSuperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AStarPathingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+        <state relative-caret-position="-174">
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2363#2369#0" expanded="true" />
-            <element signature="e#6840#6847#0" expanded="true" />
           </folding>
         </state>
       </provider>
